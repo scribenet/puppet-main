@@ -17,6 +17,6 @@ node default {
     environment => [ 'MAILTO=root', 'PATH="/usr/bin:/bin"' ];
   }
 
-  apt::ppa { "ppa:ondrej/php5": }
+  apt::ppa { 'ppa:ondrej/php5': }
  
 }
