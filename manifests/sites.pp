@@ -6,7 +6,8 @@ node default {
   include cron
   include htop
   include generaltools
-  
+  include monit
+
   cron::job{ 'updatedb':
     minute      => '*/1',
     hour        => '*',
